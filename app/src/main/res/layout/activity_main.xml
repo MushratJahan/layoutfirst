@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:weightSum="13">
+
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#F58158"
+        android:padding="40sp"
+        android:text="FLAT UI KIT"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@android:color/primary_text_dark"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="#F8B257"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09:30"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JAN 10, 2019"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/sun" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25&#xb0;"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEW YORK"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:src="@mipmap/email"
+                    android:background="#95D8E9"
+                    android:scaleType="center"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:src="@mipmap/cloud"
+                    android:background="#666666"
+                    android:scaleType="center"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="123dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:background="#F58158"
+            android:padding="30dp"
+            android:src="@mipmap/search">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="123dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="3"
+            android:background="#F58158"
+            android:padding="26dp"
+            android:text="WWW"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textColor="#FFFFFF" />
+
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="3"
+            android:background="#F8B257"
+            android:padding="20dp"
+            android:src="@mipmap/clock">
+
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#95D8E9"
+        android:gravity="center">
+
+        <ImageButton
+
+            android:layout_width="76dp"
+            android:layout_height="81dp"
+            android:layout_margin="8dp"
+            android:background="#95D8E9"
+            android:cropToPadding="false"
+            android:padding="10dp"
+            android:src="@mipmap/music"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOW PLAYING"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
